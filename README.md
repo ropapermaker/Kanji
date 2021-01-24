@@ -3,7 +3,8 @@
 ## Japan inspired start page for the browser
 
 ## Screenshot:
-![screen](screen.png)
+![screen](https://res.cloudinary.com/dn3cdvdix/image/upload/v1611496970/dark_r6rdz5.png)
+![screen](https://res.cloudinary.com/dn3cdvdix/image/upload/v1611496904/light_q75kft.png)
 
 ## Set up
 
