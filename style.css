@@ -161,6 +161,7 @@ img{
     border-radius: 50%;
     transform: rotate(45deg);
     filter: blur(0.5px);
+    transition: .4s ease-out;
 }
 
 #toggle span:nth-child(2){
