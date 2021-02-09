@@ -1,5 +1,7 @@
 ![bg](bg.png)
 
+![reposize](https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=for-the-badge) ![licence](https://img.shields.io/github/license/alededorigo/kanji?color=%23cd58f4&style=for-the-badge) ![release](https://img.shields.io/github/v/release/alededorigo/kanji?color=ee4f84&style=for-the-badge) ![lastcommit](https://img.shields.io/github/last-commit/alededorigo/kanji?color=%231ce590&style=for-the-badge)
+
 ## Japan inspired start page for the browser
 
 ## Screenshot:
