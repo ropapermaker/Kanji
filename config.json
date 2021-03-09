@@ -1,0 +1,19 @@
+{
+    "g1": "おやすみなさい",
+    "g2": "おはようございます",
+    "g3": "こんにちは",
+    "g4": "おやすみなさい",
+    "g5": "おやすみなさい",
+    "g6": "おやすみなさい",
+    "clock": true,
+    "clock_fgcolor": "#7ba5b5",
+    "clock_fontsize": "20px",
+    "greeting_fontsize": "40px",
+    "greeting_fgcolor": "#7ba5b5",
+    "image_radius": "0px",
+    "image_border": "0px solid",
+    "image_bordercolor": "#ba8991",
+    "image_filter": "grayscale(56%) brightness(60%)",
+    "image_width": "350px",
+    "enable_icons": false
+}
