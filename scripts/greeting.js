@@ -12,7 +12,7 @@ function readTextFile(file, callback) {
 }
 
 // Main ----------------------------------------
-readTextFile("../config.json", function (text) {
+readTextFile("/config.json", function (text) {
     var data = JSON.parse(text);
 
     let today = new Date();
