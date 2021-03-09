@@ -44,6 +44,7 @@ var data = {
     enable_icons: false,
 
     // -------------------------------------------------
+    // Page title
     title: "ここから始める"
 
 }
