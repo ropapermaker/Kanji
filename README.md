@@ -5,7 +5,7 @@
 ## Japan inspired start page for the browser
 
 ## Release 1.2:
-![cover](https://res.cloudinary.com/dn3cdvdix/image/upload/v1615294682/kanji_du4vul.gif)
+![preview](https://res.cloudinary.com/dn3cdvdix/image/upload/v1615300936/preview_nosmbp.gif)
 
 ## Screenshot:
 ![1](https://res.cloudinary.com/dn3cdvdix/image/upload/v1615294890/image_2021-03-09_14-00-52_xiacwg.png)
