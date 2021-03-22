@@ -8,7 +8,7 @@
   
 ## Release 2.1 <img alt="" align="right" src="https://img.shields.io/github/repo-size/alededorigo/kanji?color=%2358d0f4&style=for-the-badge"/>
 
-<a href="https://github.com/Alededorigo/Kanji/releases/tag/2.0">
+<a href="https://github.com/Alededorigo/Kanji/releases/tag/2.1">
   <img style="border-radius: 4px" src="https://res.cloudinary.com/dn3cdvdix/image/upload/v1615294890/image_2021-03-09_14-00-52_xiacwg.png" alt="preview" align="right" width="400px"/>
 </a>
 
