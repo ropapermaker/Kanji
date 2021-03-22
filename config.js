@@ -39,13 +39,8 @@ var data = {
     // Width/height for the image
     image_width: "350px",
     // Image source: you can use local files, or a link
-<<<<<<< HEAD
     // Ex.: image_source: "/img/kanji.jpg"
     image_source: "https://raw.githubusercontent.com/Alededorigo/Kanji/main/img/kanji.jpg",
-=======
-    // Ex.: image_source: "https://link/to/the/image.jpg"
-    image_source: "/img/kanji.jpg",
->>>>>>> 1e132e4c98e447ab916ff23f2211f8417975e73f
 
     // -------------------------------------------------
     // Enable/disable site icons
