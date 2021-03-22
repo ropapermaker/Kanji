@@ -38,6 +38,9 @@ var data = {
     image_filter: "grayscale(56%) brightness(60%)",
     // Width/height for the image
     image_width: "350px",
+    // Image source: you can use local files, or a link
+    // Ex.: image_source: "https://link/to/the/image.jpg"
+    image_source: "../img/kanji.jpg",
 
     // -------------------------------------------------
     // Enable/disable site icons
@@ -47,8 +50,18 @@ var data = {
     // Page title
     title: "ここから始める",
 
-    // Image source: you can use local files, or a link
-    // Ex.: image_source: "https://link/to/the/image.jpg"
-    image_source: "../img/kanji.jg"
+    // -------------------------------------------------
+    // Change search bar proprietis from here
+    // Search bar placeholder
+    search_placeholder: "Search here",
+    // Search engine
+    // Possible choices: (case sensitive)
+    // google
+    // duckduckgo
+    // qwant
+    // startpage
+    // ecosia
+    // youtube
+    search_engine: "duckduckgo"
 
 }

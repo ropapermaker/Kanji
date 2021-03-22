@@ -63,3 +63,25 @@ if (data.clock == true) {
 document.title = data.title;
 
 document.getElementById("cover").src = data.image_source;
+document.getElementById("input_box").placeholder = data.search_placeholder;
+
+let search_engine;
+
+if (data.search_engine == "google") {
+    search_engine = "https://google.com/search";
+} else if (data.search_engine == "duckduckgo") {
+    search_engine = "https://www.duckduckgo.com/"
+} else if (data.search_engine == "qwant") {
+    search_engine = "https://www.qwant.com/"
+} else if (data.search_engine == "startpage") {
+    search_engine = "https://www.startpage.com/search"
+} else if (data.search_engine == "ecosia") {
+    search_engine = "https://www.ecosia.org/search"
+} else if (data.search_engine == "youtube") {
+    search_engine = "https://www.youtube.com/search"
+} else {
+    console.log("You should choose a search engine from the list")
+}
+
+
+document.getElementById("search").action = search_engine;
