@@ -61,3 +61,5 @@ if (data.clock == true) {
 }
 
 document.title = data.title;
+
+document.getElementById("cover").src = data.image_source;

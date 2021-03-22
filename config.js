@@ -45,6 +45,10 @@ var data = {
 
     // -------------------------------------------------
     // Page title
-    title: "ここから始める"
+    title: "ここから始める",
+
+    // Image source: you can use local files, or a link
+    // Ex.: image_source: "https://link/to/the/image.jpg"
+    image_source: "../img/kanji.jg"
 
 }
