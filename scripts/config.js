@@ -80,7 +80,7 @@ if (data.search_engine == "google") {
 } else if (data.search_engine == "youtube") {
     search_engine = "https://www.youtube.com/search"
 } else {
-    console.log("You should choose a search engine from the list")
+    document.getElementById('error').classList.toggle('enabled');
 }
 
 
