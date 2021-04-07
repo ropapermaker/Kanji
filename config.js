@@ -19,7 +19,7 @@ var data = {
     // Clock config
 
     // Enable/disable clock
-    clock: true,
+    clock: false,
     // Foreground color of the clock
     clock_fgcolor: "#7ba5b5",
     // Font size of the clock
@@ -29,18 +29,18 @@ var data = {
     // Change image proprieties from here
 
     // Border radius: set it to 50% to create a circle
-    image_radius: "0",
+    image_radius: "5%",
     // Border for the image
-    image_border: "0px solid",
-    // Color of the border
-    image_bordercolor: "#ba8991",
+    image_border: "5px solid",
+    // Color of the border default: #ba8991
+    image_bordercolor: "#7ba5b5",
     // Filters for the image.
     image_filter: "grayscale(56%) brightness(60%)",
     // Width/height for the image
     image_width: "350px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
-    image_source: "https://raw.githubusercontent.com/Alededorigo/Kanji/main/img/kanji.jpg",
+    image_source: "./img/corpo-mente.jpg",
 
     // -------------------------------------------------
     // Enable/disable site icons
