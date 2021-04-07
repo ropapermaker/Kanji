@@ -6,10 +6,22 @@ document.querySelector('.left').style.border = data.image_border;
 document.querySelector('.left').style.borderColor = data.image_bordercolor;
 document.querySelector('.left').style.borderRadius = data.image_radius;
 image.style.filter = data.image_filter;
-image.style.width = data.image_width;
-image.style.height = data.image_width;
-document.querySelector('.left').style.width = data.image_width;
-document.querySelector('.left').style.height = data.image_width;
+
+
+if (window.innerWidth < 768) {
+    image.style.width = data.image_width_mobile;
+    image.style.height = data.image_width_mobile;
+    document.querySelector('.left').style.width = data.image_width_mobile;
+    document.querySelector('.left').style.height = data.image_width_mobile;
+} else {
+    image.style.width = data.image_width;
+    image.style.height = data.image_width;
+    document.querySelector('.left').style.width = data.image_width;
+    document.querySelector('.left').style.height = data.image_width;
+}
+
+
+
 
 let icons = document.querySelectorAll('a img');
 

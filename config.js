@@ -11,7 +11,7 @@ var data = {
     g4: "おやすみなさい", // Rest of the time
 
     // Font size of the greeting
-    greeting_fontsize: "40px",
+    greeting_fontsize: "30px",
     // Foreground color of the greeting
     greeting_fgcolor: "#7ba5b5",
 
@@ -38,6 +38,8 @@ var data = {
     image_filter: "grayscale(56%) brightness(60%)",
     // Width/height for the image
     image_width: "350px",
+    // Width/height for the image on mobile
+    image_width_mobile: "150px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
     image_source: "./img/corpo-mente.jpg",
@@ -53,7 +55,7 @@ var data = {
     // -------------------------------------------------
     // Change search bar proprietis from here
     // Search bar placeholder
-    search_placeholder: "Search here",
+    search_placeholder: "Search ",
     // Search engine
     // Possible choices: (case sensitive)
     // google
