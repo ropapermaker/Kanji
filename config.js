@@ -13,7 +13,8 @@ var data = {
     // Font size of the greeting
     greeting_fontsize: "30px",
     // Foreground color of the greeting
-    greeting_fgcolor: "#7ba5b5",
+    // old: #7ba5b5
+    greeting_fgcolor: "#8396c2",
 
     // -------------------------------------------------
     // Clock config
@@ -33,7 +34,7 @@ var data = {
     // Border for the image
     image_border: "5px solid",
     // Color of the border default: #ba8991
-    image_bordercolor: "#7ba5b5",
+    image_bordercolor: "#8396c2",
     // Filters for the image.
     image_filter: "grayscale(56%) brightness(60%)",
     // Width/height for the image
@@ -42,7 +43,7 @@ var data = {
     image_width_mobile: "150px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
-    image_source: "./img/corpo-mente.jpg",
+    image_source: "./img/alcest.jpg",
 
     // -------------------------------------------------
     // Enable/disable site icons
