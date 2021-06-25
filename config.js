@@ -43,7 +43,7 @@ var data = {
     image_width_mobile: "150px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
-    image_source: "./img/alcest.jpg",
+    image_source: "./img/sleep_token.jpg",
 
     // -------------------------------------------------
     // Enable/disable site icons
