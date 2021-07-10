@@ -1,109 +1,113 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>ようこそ</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet"> 
-		<link rel="icon" href="./favicon.ico">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		<script src="./config.js"></script>
+<head>
+    <title>ようこそ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	</head>
-	<body>
-		<div id="date">
-			
-		</div>
-		<div id="toggle">
-			<span></span>
-			<span></span>
-		</div>
-		<div class="column-container">
-			<div class="left">
-				<img id="cover" alt="">
-			</div>
+    <script src="./config.js"></script>
 
-			<div class="clock">
-				<div id="hour" class=""></div>
-				<div id="separator" class=""></div>
-				<div id="minutes" class=""></div>
-			</div>
+</head>
 
-			<div class="right">
-				<div id="greetings" class=""></div>
-				<div class="search_box">
-					<form id="search" method="get">
-					<input id="input_box" class="input_box" type="text" name="q" autocomplete="off" autofocus/>
-				</div>
-				<div class="container">
-					<div class="column">
-						<p>Social</p>
-						<a class="link" href="https://instagram.com/"><img src="https://instagram.com/favicon.ico">Instagram</a>
-						<a class="link" href="https://youtube.com/"><img src="https://youtube.com/favicon.ico">YouTube</a>
-						<a class="link" href="https://reddit.com"><img src="https://reddit.com/favicon.ico">Reddit</a>
-						<a class="link" href="https://twitter.com/"><img src="https://twitter.com/favicon.ico">Twitter</a>
-						<a id="git" class="link" href="https://github.com"><img src="https://github.com/favicon.ico">GitHub</a>
-						<a class="link" href="https://forum.xda-developers.com/t/rom-11-0-official-oneplus-6-6t-11-0_r34-evolution-x-passion-06-04-2021.4193539/"><img src="https://forum.xda-developers.com/favicon.ico">EvolutionX</a>
-					</div>
-					<div class="column">
-						<p>School</p>
-						<a class="link" href="http://www.fshn.edu.al/"><img src="http://www.fshn.edu.al/favicon.ico">Fshn</a>
-						<a class="link" href="https://mail.google.com/mail/u/1/#inbox"><img src="https://mail.google.com/favicon.ico">Email</a>
-						<a class="link" href="https://outlook.office365.com/mail/inbox"><img src="https://outlook.office365.com/favicon.ico">Outlook</a>
-						<a class="link" href="http://37.139.119.36:81/Orari/student"><img src="https://styles.redditmedia.com/t5_2qrzu/styles/communityIcon_9uqx3fcjr4g51.jpeg?width=256&format=pjpg&s=21584c432b5961f5cbf8efa01e9179d3855aab12">Calendar</a>
-						<a class="link" href="https://classroom.google.com/u/1/h"><img src="https://classroom.google.com/favicon.ico">Classroom</a>
-						<a class="link null">null</a>
-					</div>
-					<div class="column">
-						<p>Personal</p>
-						<a class="link" href="https://mail.google.com/mail/u/0/#inbox"><img src="https://mail.google.com/favicon.ico">Email</a>
-						<a class="link" href="https://gjurmo.postashqiptare.al/tracking.aspx"><img src="https://www.postashqiptare.al/wp-content/uploads/2018/02/logoposta.png">Posta</a>
-						<a class="link" href="https://www.17track.net/en"><img src="https://www.17track.net/en/favicon.ico">17track</a>
-						<a class="link null">null</a>
-						<a class="link null">null</a>
-						<a class="link null">null</a>
-					</div>
-					<div class="column">
-						<p>Download</p>
-						<a class="link" href="http://rarbgmirror.org/index80.php"><img src="http://rarbgmirror.org/favicon.ico">Rarbg</a>
-						<a class="link" href="https://1337x.to/"><img src="https://1337x.to//favicon.ico">1337x</a>
-						<a class="link" href="https://nyaa.si/"><img src="https://nyaa.si/favicon.ico">Nyaa</a>
-						<a class="link" href="https://libgen.is/"><img src="https://libgen.is/favicon.ico">Libgen</a>
-						<a class="link null">null</a>
-						<a class="link null">null</a>
-					</div>
-					<div class="column">
-						<p>League</p>
-						<a class="link" href="https://na.leagueoflegends.com/en-us/news/tags/patch-notes"><img src="https://na.leagueoflegends.com/favicon.ico">Patchnotes</a>
-						<a class="link" href="https://eune.op.gg/summoner/userName=marcmerill"><img src="https://eune.op.gg/favicon.ico">op.gg</a>
-						<a class="link" href="https://u.gg/"><img src="https://u.gg/favicon.ico">u.gg</a>
-						<a class="link null">null</a>
-						<a class="link null">null</a>
-						<a class="link null">null</a>
-					</div>
-				</div>
-			</div>
-		</div>
+<body>
+    <div id="date">
 
-		<div id="error" class="error">
-			<h1>Error in config.js</h1>
-			<p>You should choose a search engine from the list</p>
-			<div class="list">
-				<p>List:</p>
-				<ul>
-					<li>google</li>
-					<li>duckduckgo</li>
-					<li>qwant</li>
-					<li>startpage</li>
-					<li>ecosia</li>
-					<li>youtube</li>
-				</ul>
-			</div>
-		</div>
+    </div>
+    <div id="toggle">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="column-container">
+        <div class="left">
+            <img id="cover" alt="">
+        </div>
 
-		<script src="./scripts/config.js"></script>
-		<script src="./scripts/darkmode.js"></script>
-	</body>
+        <div class="clock">
+            <div id="hour" class=""></div>
+            <div id="separator" class=""></div>
+            <div id="minutes" class=""></div>
+        </div>
+
+        <div class="right">
+            <div id="greetings" class=""></div>
+            <div class="search_box">
+                <form id="search" method="get">
+                    <input id="input_box" class="input_box" type="text" name="q" autocomplete="off" autofocus/>
+            </div>
+            <div class="container">
+                <div class="column">
+                    <p>Social</p>
+                    <a class="link" href="https://instagram.com/"><img src="https://instagram.com/favicon.ico">Instagram</a>
+                    <a class="link" href="https://youtube.com/"><img src="https://youtube.com/favicon.ico">YouTube</a>
+                    <a class="link" href="https://reddit.com"><img src="https://reddit.com/favicon.ico">Reddit</a>
+                    <a class="link" href="https://twitter.com/"><img src="https://twitter.com/favicon.ico">Twitter</a>
+                    <a id="git" class="link" href="https://github.com"><img src="https://github.com/favicon.ico">GitHub</a>
+                    <a class="link" href="https://forum.xda-developers.com/t/rom-11-0-official-oneplus-6-6t-11-0_r34-evolution-x-passion-06-04-2021.4193539/"><img src="https://forum.xda-developers.com/favicon.ico">EvolutionX</a>
+                </div>
+                <div class="column">
+                    <p>School</p>
+                    <a class="link" href="http://www.fshn.edu.al/"><img src="http://www.fshn.edu.al/favicon.ico">Fshn</a>
+                    <a class="link" href="https://mail.google.com/mail/u/1/#inbox"><img src="https://mail.google.com/favicon.ico">Email</a>
+                    <a class="link" href="https://outlook.office365.com/mail/inbox"><img src="https://outlook.office365.com/favicon.ico">Outlook</a>
+                    <a class="link" href="http://37.139.119.36:81/Orari/student"><img src="https://styles.redditmedia.com/t5_2qrzu/styles/communityIcon_9uqx3fcjr4g51.jpeg?width=256&format=pjpg&s=21584c432b5961f5cbf8efa01e9179d3855aab12">Calendar</a>
+                    <a class="link" href="https://classroom.google.com/u/1/h"><img src="https://classroom.google.com/favicon.ico">Classroom</a>
+                    <a class="link null">null</a>
+                </div>
+                <div class="column">
+                    <p>Personal</p>
+                    <a class="link" href="https://mail.google.com/mail/u/0/#inbox"><img src="https://mail.google.com/favicon.ico">Email</a>
+                    <a class="link" href="https://gjurmo.postashqiptare.al/tracking.aspx"><img src="https://www.postashqiptare.al/wp-content/uploads/2018/02/logoposta.png">Posta</a>
+                    <a class="link" href="https://www.17track.net/en"><img src="https://www.17track.net/en/favicon.ico">17track</a>
+                    <a class="link" href="https://www.photopea.com/"><img src="https://www.photopea.com/favicon.ico">Photopea</a>
+                    <a class="link null">null</a>
+                    <a class="link null">null</a>
+                    <a class="link null">null</a>
+                </div>
+                <div class="column">
+                    <p>Download</p>
+                    <a class="link" href="http://rarbgmirror.org/index80.php"><img src="http://rarbgmirror.org/favicon.ico">Rarbg</a>
+                    <a class="link" href="https://1337x.to/"><img src="https://1337x.to//favicon.ico">1337x</a>
+                    <a class="link" href="https://nyaa.si/"><img src="https://nyaa.si/favicon.ico">Nyaa</a>
+                    <a class="link" href="https://libgen.is/"><img src="https://libgen.is/favicon.ico">Libgen</a>
+                    <a class="link null">null</a>
+                    <a class="link null">null</a>
+                </div>
+                <div class="column">
+                    <p>League</p>
+                    <a class="link" href="https://na.leagueoflegends.com/en-us/news/tags/patch-notes"><img src="https://na.leagueoflegends.com/favicon.ico">Patchnotes</a>
+                    <a class="link" href="https://eune.op.gg/summoner/userName=marcmerill"><img src="https://eune.op.gg/favicon.ico">op.gg</a>
+                    <a class="link" href="https://u.gg/"><img src="https://u.gg/favicon.ico">u.gg</a>
+                    <a class="link null">null</a>
+                    <a class="link null">null</a>
+                    <a class="link null">null</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="error" class="error">
+        <h1>Error in config.js</h1>
+        <p>You should choose a search engine from the list</p>
+        <div class="list">
+            <p>List:</p>
+            <ul>
+                <li>google</li>
+                <li>duckduckgo</li>
+                <li>qwant</li>
+                <li>startpage</li>
+                <li>ecosia</li>
+                <li>youtube</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./scripts/config.js"></script>
+    <script src="./scripts/darkmode.js"></script>
+</body>
+
 </html>
