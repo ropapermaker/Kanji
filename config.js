@@ -14,7 +14,8 @@ var data = {
     greeting_fontsize: "30px",
     // Foreground color of the greeting
     // old: #7ba5b5
-    greeting_fgcolor: "#8396c2",
+    // dracula: #8396c2
+    greeting_fgcolor: "#cfcfcf",
 
     // -------------------------------------------------
     // Clock config
@@ -30,11 +31,12 @@ var data = {
     // Change image proprieties from here
 
     // Border radius: set it to 50% to create a circle
-    image_radius: "5%",
+    image_radius: "15%",
     // Border for the image
     image_border: "5px solid",
     // Color of the border default: #ba8991
-    image_bordercolor: "#8396c2",
+    // dracula:#8396c2
+    image_bordercolor: "#cfcfcf",
     // Filters for the image.
     image_filter: "grayscale(56%) brightness(60%)",
     // Width/height for the image
@@ -43,7 +45,7 @@ var data = {
     image_width_mobile: "150px",
     // Image source: you can use local files, or a link
     // Ex.: image_source: "/img/kanji.jpg"
-    image_source: "./img/sleep_token.jpg",
+    image_source: "./img/neverchange.jpg",
 
     // -------------------------------------------------
     // Enable/disable site icons
