@@ -38,7 +38,7 @@ var data = {
     // dracula:#8396c2
     image_bordercolor: "#cfcfcf",
     // Filters for the image.
-    image_filter: "grayscale(56%) brightness(60%)",
+    image_filter: "grayscale(50%) brightness(90%)",
     // Width/height for the image
     image_width: "350px",
     // Width/height for the image on mobile
